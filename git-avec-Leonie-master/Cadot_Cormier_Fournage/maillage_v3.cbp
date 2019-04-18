@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="maillage_v3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/maillage_v3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/maillage_v3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/geometrie/Coquillage.cpp" />
+		<Unit filename="src/geometrie/Coquillage.h" />
+		<Unit filename="src/geometrie/Ellipse.cpp" />
+		<Unit filename="src/geometrie/Ellipse.h" />
+		<Unit filename="src/geometrie/Forme.cpp" />
+		<Unit filename="src/geometrie/Forme.h" />
+		<Unit filename="src/geometrie/Nuage.cpp" />
+		<Unit filename="src/geometrie/Nuage.h" />
+		<Unit filename="src/geometrie/Palmier.cpp" />
+		<Unit filename="src/geometrie/Palmier.h" />
+		<Unit filename="src/geometrie/Paysage.cpp" />
+		<Unit filename="src/geometrie/Paysage.h" />
+		<Unit filename="src/geometrie/Plan.cpp" />
+		<Unit filename="src/geometrie/Plan.h" />
+		<Unit filename="src/geometrie/Rectangle.cpp" />
+		<Unit filename="src/geometrie/Rectangle.h" />
+		<Unit filename="src/geometrie/Soleil.cpp" />
+		<Unit filename="src/geometrie/Soleil.h" />
+		<Unit filename="src/geometrie/bateau.cpp" />
+		<Unit filename="src/geometrie/bateau.h" />
+		<Unit filename="src/geometrie/coords.cpp" />
+		<Unit filename="src/geometrie/coords.h" />
+		<Unit filename="src/geometrie/matrice.cpp" />
+		<Unit filename="src/geometrie/matrice.h" />
+		<Unit filename="src/geometrie/transformation.cpp" />
+		<Unit filename="src/geometrie/transformation.h" />
+		<Unit filename="src/geometrie/vague.cpp" />
+		<Unit filename="src/geometrie/vague.h" />
+		<Unit filename="src/graphisme/couleur.cpp" />
+		<Unit filename="src/graphisme/couleur.h" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/svg/svgfile.cpp" />
+		<Unit filename="src/svg/svgfile.h" />
+		<Unit filename="src/util/util.cpp" />
+		<Unit filename="src/util/util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
